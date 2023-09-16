@@ -20,9 +20,9 @@ The third line will tell the system to check that the student is taking at least
 If all rows are OKAY, then the section will return OKAY on the main schedule
 
 Students enter courses by entering the course number in the `1Sheet` sheet. This will automatically:
-(1) generate a calendar for that semester (VBA)
-(2) highlight whether they are in the wrong type of semester (spring vs fall)
-(3) update the requirements based on added/deleted courses
+1. generate a calendar for that semester (VBA
+2.  highlight whether they are in the wrong type of semester (spring vs fall)
+3.   update the requirements based on added/deleted courses
 
 The system can also adapt to different lists for different majors.
 
