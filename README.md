@@ -8,11 +8,11 @@ this is a version of a tool I use in my work to help students make study-abroad 
 I've stripped out the actual data for students and instructors to give a model case. Basically, by using the names of courses in different tabs, it creates a part of a requirement.
 
 E.g. In
-####
+`````
 履修基準分野	学年	授業数	履修授業数	状況	科目名称
 教養科目（共通基礎科目・日本国憲法）	2	1	1	OKAY	Civics
 教養科目（現代的教養科目）	1	2	2	OKAY	French I	French II	Farming I	Farming II	Spanish I	Spanish II	German I	German II	School Bullying	Intro to Anthropology	Music Survey	Art Survey	Art Survey	Contemporary Literature Survery	Chinese I	Chinese II	Korean I	Korean II	Drama	Soul Studies	Finance	Life: An Introduction	General Humanities	Anthropology I	Anthropology II	International Understanding																
-####
+`````
 
 The second line will tell the system to check if the student is taking "Civics". If the answer is "yes" then the line is OKAY
 The third line will tell the system to check that the student is taking at least two calsses from that section. if they have zero or 1 NG, 2 or more OKAY
